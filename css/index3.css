@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+}
+
+.navbar {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Disposición horizontal */
+}
+
+.navbar li {
+    flex: 1; /* Cada ítem ocupa el mismo espacio */
+}
+
+.navbar a {
+    display: block; /* Hace que el área clickeable sea más grande */
+    padding: 14px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto */
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Color de fondo al pasar el mouse */
+}
